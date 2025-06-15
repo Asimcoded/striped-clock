@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'VCR';
+  src: url('./font/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  --font-number: "VCR", "sans-serif";
+  --font-number--font-feature-settings: "cv02", "cv03", "cv04", "cv11"; 
+  --font-number--font-variation-settings: "opsz" 32; 
+}
+@import "tailwindcss";

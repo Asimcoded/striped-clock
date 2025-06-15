@@ -1,0 +1,25 @@
+{
+  "name": "striped-clock",
+  "version": "1.0.0",
+  "description": "\"# striped-clock\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asimcoded/striped-clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asimcoded/striped-clock/issues"
+  },
+  "homepage": "https://github.com/Asimcoded/striped-clock#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
