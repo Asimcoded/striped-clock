@@ -12,14 +12,14 @@
       class="hidden md:grid bg-linear-120 from-gray-950 to-gray-800 max-h-lvh grid-cols-[repeat(9,_70px)] grid-rows-[repeat(19,_70px)] place-content-center gap-x-2 text-xl overflow-hidden"
     >
       <div
-        class="bg-slate-100 even:bg-gray-700 transition-all duration-500 row-span-3 row-start-10 grid justify-center text-black even:text-white rounded-lg"
+        class="bg-slate-100 transition-all duration-500 row-span-3 row-start-10 grid justify-center text-black rounded-lg" id="fistHrsDigit"
       >
         <div class="grid place-content-center">0</div>
         <div class="grid place-content-center">1</div>
         <div class="grid place-content-center">2</div>
       </div>
       <div
-        class="bg-slate-100 even:bg-gray-700 transition-all duration-500 row-span-10 row-start-10 grid justify-center text-black even:text-white rounded-lg"
+        class="bg-gray-700 transition-all duration-500 row-span-10 row-start-10 grid justify-center text-white rounded-lg" id="secondHrsDigit"
       >
         <div class="grid place-content-center">0</div>
         <div class="grid place-content-center">1</div>
@@ -35,7 +35,7 @@
       <div class="row-start-10 text-white grid place-content-center">hrs</div>
 
       <div
-        class="bg-slate-100 even:bg-gray-700 transition-all duration-500 row-span-6 row-start-10 grid justify-center text-black even:text-white rounded-lg"
+        class="bg-slate-100 transition-all duration-500 row-span-6 row-start-10 grid justify-center text-black rounded-lg" id="fistMinDigit"
       >
         <div class="grid place-content-center">0</div>
         <div class="grid place-content-center">1</div>
@@ -45,7 +45,7 @@
         <div class="grid place-content-center">5</div>
       </div>
       <div
-        class="bg-slate-100 even:bg-gray-700 transition-all duration-500 row-span-10 row-start-10 grid justify-center text-black even:text-white rounded-lg"
+        class="bg-gray-700 transition-all duration-500 row-span-10 row-start-10 grid justify-center text-white rounded-lg" id="secondMinDigit"
       >
         <div class="grid place-content-center">0</div>
         <div class="grid place-content-center">1</div>
@@ -60,7 +60,7 @@
       </div>
       <div class="row-start-10 text-white grid place-content-center">mins</div>
       <div
-        class="bg-slate-100 even:bg-gray-700 transition-all duration-500 translate-y-[-70px] row-span-6 row-start-10 grid justify-center text-black even:text-white rounded-lg"
+        class="bg-slate-100 transition-all duration-500 row-span-6 row-start-10 grid justify-center text-black rounded-lg" id="fistSecDigit"
       >
         <div class="grid place-content-center">0</div>
         <div class="grid place-content-center">1</div>
@@ -70,7 +70,7 @@
         <div class="grid place-content-center">5</div>
       </div>
       <div
-        class="bg-slate-100 even:bg-gray-700 transition-all duration-500 translate-y-[-630px] row-span-10 row-start-10 grid justify-center text-black even:text-white rounded-lg"
+        class="bg-gray-700 transition-all duration-500 row-span-10 row-start-10 grid justify-center text-white rounded-lg" id="secondSecDigit"
       >
         <div class="grid place-content-center">0</div>
         <div class="grid place-content-center">1</div>
@@ -85,7 +85,23 @@
       </div>
       <div class="row-start-10 text-white grid place-content-center">secs</div>
     </div>
-    <div class="grid md:hidden h-screen bg-linear-120 from-gray-950 to-gray-800 place-content-center px-5 text-white">Sorry, kiddo — this page was built for screens wider than 720px. Try resizing, or borrow a real computer like it’s 1999.</div>
-    <div class="fixed z-10 bottom-1 left-1/2 -translate-x-1/2 text-white backdrop-blur-3xl bg-black/40 px-5 py-2 rounded-md">Built with ✨ by <a href="https://github.com/Asimcoded/" class="text-blue-400" target="_blank">@asimcoded</a></div>
+    <div
+      class="grid md:hidden h-screen bg-linear-120 from-gray-950 to-gray-800 place-content-center px-5 text-white"
+    >
+      Sorry, kiddo — this page was built for screens wider than 720px. Try
+      resizing, or borrow a real computer like it’s 1999.
+    </div>
+    <div
+      class="fixed z-10 bottom-1 left-1/2 -translate-x-1/2 text-white backdrop-blur-3xl bg-black/40 px-5 py-2 rounded-md"
+    >
+      Built with ✨ by
+      <a
+        href="https://github.com/Asimcoded/"
+        class="text-blue-400"
+        target="_blank"
+        >@asimcoded</a
+      >
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
